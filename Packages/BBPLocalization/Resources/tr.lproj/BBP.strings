@@ -1,0 +1,263 @@
+/* Navigation title for screen where user can inspect and choose trading account for BBP platform */
+"accounts_list_navigation_title" = "BBP Trader";
+/* Message title that appeared when user doesn't have any available trading accounts for display */
+"accounts_list_empty_content_title" = "Henüz hesabınız yok. \n Başlamak için bir tane ekleyin.";
+/* Message subtitle that appeared when user doesn't have any available trading accounts for display */
+"accounts_list_empty_content_subtitle" = "İlk hesabınızı oluşturmak için aşağıdaki butonu tıklayın";
+/* Title for button that appeared when user doesn't have any available trading accounts and suggest him to open new account */
+"accounts_list_create_account_button_title" = "Yeni Hesap Oluştur";
+/* Message appears on the screen if something went wrong while user loading accounts list */
+"accounts_list_loading_error_message" = "Veriler yüklenemedi, tekrar deneyin.";
+/* Title for button that allows user to load accounts list again in cause of errors */
+"zero_data_reload_button_title" = "Tekrar Yükle";
+"create_account_screen_title" = "Yeni Hesap";
+"create_account_screen_field_product" = "Ürün";
+"create_account_screen_field_account_name" = "Hesap Adı";
+"create_account_screen_choose_product" = "Ürün Seç";
+"create_account_screen_button" = "Oluştur";
+/* Caption for card that represents multiaccount on BBP platform and inform user about main properties of exact multiaccount */
+"multiaccount_card_caption" = "Multi · ID %@";
+/* Title for column that informs user about current free funds on the wallet */
+"multiaccount_card_free_funds_column_title" = "Çekilebilir, USD";
+/* Title for column that informs user about currently holded funds on the wallet */
+"multiaccount_card_on_hold_column_title" = "Beklemede, USD";
+/* Title for column that informs user about total funds on the wallet (free + hold) */
+"multiaccount_card_total_column_title" = "Yaklaşık toplam, USD";
+"create_account_screen_error_alert_title" = "Hata";
+"create_account_screen_error_alert_text" = "%@ hesabı oluşturulamadı";
+"accounts_list_there_is_no_products" = "Hesap oluşturmak için ürün yok";
+"zero_data_try_later" = "Daha sonra deneyin";
+"zero_data_got_it" = "Tamam";
+"accounts_list_account_created" = "Hesap %@ başarıyla oluşturuldu";
+/* Navigation title for screen where user can inspect detailed information about selected multiaccount */
+"multiaccount_details_navigation_title" = "Hesap detayları";
+/* Title for a tab that takes the user to a screen with a list of trading pairs */
+"multiaccount_details_markets_tab_title" = "Piyasalar";
+/* Title for a tab that takes the user to a screen with a list of user's orders */
+"multiaccount_details_orders_tab_title" = "Piyasalar";
+/* Title for section that informs user about current free funds on the multiaccount */
+"multiaccount_details_free_funds_title" = "Çekilebilir USD";
+/* Title for section that informs user about currently holded funds on the muliaccount */
+"multiaccount_details_on_hold_title" = "Beklemede USD";
+/* Title for section that informs user about total funds on the multiaccount (free + hold) */
+"multiaccount_details_total_title" = "Tahmini toplam USD";
+/* Caption that describes main properties of multiaccount */
+"multiaccount_details_type_caption" = "Multi · Spot";
+/* Caption that inform user about currently selected multiaccount id */
+"multiaccount_details_id_caption" = "ID %@";
+/* Text for notification that appears when user tapped on button to copy multiaccount id */
+"multiaccount_details_copy_id_notification" = "%@ ID kopyalandı";
+"markets_title" = "Piyasalar";
+"markets_search" = "Piyasaya göre ara";
+"markets_empty_state_no_markets" = "Mevcut piyasa yok";
+"zero_data_screen_load_fail_text" = "Veriler yüklenemedi, tekrar deneyin.";
+"market_details_sell" = "Sat";
+"market_details_buy" = "Al";
+"market_details_order_book" = "Emir defteri";
+"market_details_change" = "24 saat Değişim:";
+"market_details_no_data" = "Veri yok";
+"market_details_volume" = "Hacim";
+"market_details_price" = "Fiyat";
+"market_details_order_book_is_empty" = "Sipariş Defteri boş";
+/* Navigation title for screen with list of orders opened by user */
+"orders_list_navigation_title" = "Emirler";
+/* Title for segment with currently opened orders */
+"orders_list_segment_open" = "Açık";
+/* Title for segment with currently inactive orders (rejected, cancelled, compelted) */
+"orders_list_segment_history" = "Emir Geçmişi";
+/* Side of the order that shows user buys assets */
+"order_cell_side_buy" = "Al";
+/* Side of the order that shows user sells assets */
+"order_cell_side_sell" = "Sat";
+"order_cell_type_limit" = "Limit";
+"order_cell_type_market" = "Piyasa";
+/* Title for row that informs about current status of the order */
+"order_cell_status_title" = "Durum:";
+/* Status for orders that currently not registered in system */
+"order_cell_status_started" = "Başlatıldı";
+/* Status for orders that waiting for selected price */
+"order_cell_status_pending" = "Bekliyor";
+/* Status for orders that is executing now */
+"order_cell_status_working" = "İşleniyor";
+/* Title for row that informs about in what mode order was opened */
+"order_cell_tif_title" = "Geçerlilik Süresi:";
+/* Title for row that informs about when order will be cancelled due to opened mode */
+"order_cell_cancellation_title" = "Şu tarihe kadar geçerlidir:";
+/* Status for orders that were rejected for some reasons */
+"order_cell_status_rejected" = "Reddedilmiş";
+/* Status for orders that were cancelled by user */
+"order_cell_status_cancelled" = "İptal edildi";
+/* Status for orders that were successfully fulfilled */
+"order_cell_status_completed" = "Tamamlanmış";
+"market_details_timeline_5min" = "5m";
+/* Status for orders that were expired due to order time in force */
+"order_cell_status_expired" = "Günü geçmiş";
+"market_details_timeline_15min" = "15m";
+"market_details_timeline_30min" = "30 dakika";
+"market_details_timeline_1h" = "1 saat";
+"market_details_timeline_4h" = "4 saat";
+"market_details_timeline_12h" = "12 saat";
+"market_details_timeline_1d" = "1 boyutlu";
+"market_details_timeline_1w" = "1W";
+"market_details_timeline_1m" = "1m";
+"market_details_timeline_1mt" = "1M";
+"assets__list_navigation_title" = "Varlıklar";
+"assets_list_search_bar_title" = "Varlığın adı";
+"assets_list_hide_zero_balance_toggle_title" = "Sıfır bakiyeyi gizle";
+"assets_list_item_available_title" = "Mevcut";
+"assets_list_item_on_hold_title" = "Beklemede";
+/* Title appears when there are currently no orders to show */
+"orders_list_empty_title" = "Mevcut emir yok";
+/* Title for notification that appears when order was fulfilled */
+"notification_order_filled_title" = "Emir tamamlandı";
+/* Body for notification that appears when order was fulfilled */
+"notification_order_fulfilled_body" = "%@ %@ %@ %@ , fiyat: %@ %@";
+/* Title for notification that appears when order was completed with partial filling */
+"notification_order_partially_filled_title" = "Emir kısmen tamamlandı";
+/* Title for notification that appears when order was completed with partial filling */
+"notification_order_partially_filled_body" = "%@ %@ %@ %@ , fiyat: %@ %@ , iptal edildi: %@ %@";
+"market_details_graph_open" = "Açılış";
+"market_details_graph_close" = "Kapanış";
+"market_details_graph_low" = "Düşük";
+"market_details_graph_high" = "Yüksek";
+/* Error that appears when we can't resolve actual user trading account id */
+"orders_missing_account_id_error" = "Hesap id ayarlanmadı";
+/* Error appears when we can't cancel user order for some reasons */
+"order_cancellation_error" = "Emir iptal edilmedi";
+/* Error that appears when we can't place order due to some unrecognized errors */
+"order_placement_error" = "Emir verilmedi";
+/* Title for sheet with detail information about selected order */
+"order_details_sheet_title" = "Emir detayları";
+/* Title for sheet that informs user about details of the order that will be repeated */
+"repeat_order_sheet_title" = "Emri tekrarla";
+/* Subtitle for sheet that informs user about details of the order that will be repeated */
+"repeat_order_sheet_subtitle" = "Emri tekrarlamak istediğinizden emin misiniz?";
+/* Title for sheet that informs user about details of the order that will be canceled */
+"cancel_order_sheet_title" = "Emri iptal et";
+/* Subtitle for sheet that informs user about details of the order that will be canceled */
+"cancel_order_sheet_subtitle" = "Emri iptal etmek istediğinizden emin misiniz?";
+/* Title for information block that describes current status of the selected order */
+"order_details_sheet_status_block_title" = "Durum";
+/* Title for information block that describes time if force mode for the selected order */
+"order_details_sheet_tif_block_title" = "Geçerlilik Süresi";
+/* Title for information block that describes remaining amount that need to be filled to complete the selected order */
+"order_details_sheet_remaining_block_title" = "Geriye kalan";
+/* Title for information block that show creation date of the selected order */
+"order_details_sheet_creation_date_block_title" = "Oluşturulma tarihi:";
+/* Title for information block that show cancellation date of the selected order */
+"order_details_sheet_cancellation_date_block_title" = "Geçerlilik Tarihi";
+/* Title for information block that describes volume amount that has already been filled for the selected order */
+"order_details_sheet_filled_block_title" = "Dolu";
+/* Title for information block that show id of the selected order */
+"order_details_sheet_order_id_block_title" = "Sipariş Kimliği";
+/* Title for button that close currently opened sheet */
+"order_details_close_button_title" = "Kapalı";
+/* Title for button that starts order repeating flow */
+"order_details_repeat_order_button_title" = "Sipariş tekrarla";
+/* Title for button that starts order cancellation flow */
+"order_details_cancel_order_button_title" = "Siparişi iptal et";
+/* Title for button that cancel selected order */
+"cancel_order_sheet_confirm_button_title" = "İptal işlemini onayla";
+/* Alert appears when order was successfully canceled by user */
+"order_cancellation_success_message" = "%@ %@ %@ sipariş fiyatı: %@ %@ başarıyla iptal edildi";
+/* Alert appears when some error appears when user try to cancel the order */
+"order_cancellation_failure_message" = "%@ %@ %@ siparişi iptal edilmedi";
+/* Title for screen that appears when user successfully placed new order */
+"order_placement_result_success_title" = "Sipariş Verildi";
+/* Title for screen that appears if some errors occurred while user was placing new order */
+"order_placement_result_failure_title" = "Emir Verilmedi";
+/* Title for button that close screen with result information about order placement */
+"order_placement_result_go_back_button_title" = "Geri";
+/* Subtitle for date picker that informs user about maximum date range for filtration */
+"orders_history_filters_date_picker_subtitle" = "Maksimum tarih seçim aralığı - 3 ay";
+/* Title for screen where user select filter parameters for history orders */
+"orders_history_filter_navigation_title" = "Filtrele";
+/* Title for button that dismiss filter screen without applying new settings */
+"orders_history_filter_cancel_button_title" = "İptal et";
+/* Title for button that resets active filters to default and dismisses filter settings screen */
+"orders_history_filter_reset_button_title" = "Sıfırla";
+/* Title foe button that applies new filter settings */
+"orders_history_filter_apply_button_title" = "Uygula";
+/* Value for filter row if no settings were applied */
+"orders_history_filter_default_value" = "Tümü";
+/* Title for row that applies date range to filter orders */
+"orders_history_filter_date_row_title" = "Tarih";
+/* Title for row that applies status collection to filter orders */
+"orders_history_filter_status_row_title" = "Durum";
+/* Divider between from and to dates in the row */
+"orders_history_filter_dates_divider" = "-";
+/* Title for sheet where user can select statuses to filter history orders */
+"status_selection_sheet_title" = "Durum";
+/* Title for button to dismiss status selection sheet without applying any settings */
+"status_selection_sheet_close_button_title" = "Kapat";
+/* Title for button to apply selected settings to filter history orders */
+"status_selection_sheet_apply_button_title" = "Uygula";
+"market_place_order_available" = "Mevcut";
+"market_place_order_time_in_force" = "Geçerlilik Süresi";
+"market_place_order_value" = "Değer %@";
+"market_place_order_amount" = "Miktar %@";
+"market_place_order_price" = "Fiyat %@";
+"market_place_order_total" = "Toplam";
+"market_place_order_fee" = "Ücret";
+"market_place_order_date" = "Tarih";
+"market_place_order_select_date" = "Tarih seç";
+"market_place_order_apply" = "Uygula";
+/* Error appears when user try to repeat/place order with cancellation date less than tomorrow */
+"order_placement_unacceptable_cancellation_date_error" = "GTD emir tarihi gelecekte olmalıdır.";
+/* Navigation title for screen where user can change name for the selected account */
+"change_name_navigation_title" = "Hesap Adı";
+/* Title for button that save new name for selected account */
+"change_name_save_button_title" = "Kaydet";
+/* Title for field where user can change name for the selected account */
+"change_name_field_placeholder" = "Hesap Adı";
+/* Alert that appears when trading account was successfully renamed */
+"change_name_sucess_alert" = "Hesap başarıyla yeniden adlandırıldı";
+/* Title for row that inform user about average execution price for selected order */
+"order_cell_execution_price_title" = "Yönetici fiyat:";
+/* Title for information block that describes average execution price of selected order */
+"order_details_sheet_execution_price_block_title" = "Yönetici fiyat";
+/* Title for notification that appears when order was rejected for some reason */
+"notification_order_rejected_title" = "Hata";
+/* Text for notification that appears when market order was rejected for some reason */
+"notification_order_rejected_market_body" = "%@ %@ %@ reddedildi";
+/* Text for notification that appears when limit order was rejected for some reason */
+"notification_order_rejected_limit_body" = "%@ %@ %@ emir fiyatı: %@ %@ reddedildi";
+/* Title for tab with information about open orders for selected instrument */
+"market_details_open_orders" = "Açık emirler";
+"market_details_balances" = "Bakiyeler";
+"market_details_no_available_assets" = "Kullanılabilir öğe yok";
+"market_place_order_best_bid" = "En İyi Teklif";
+"market_place_order_best_offer" = "En İyi Teklif";
+"multiaccount_details_authorization_failure_alert" = "Yetkilendirme başarısız oldu";
+/* Error informing users that we cannot establish a secure connection to the server */
+"secure_connection_failed" = "Güvenli bir bağlantı kurma girişimi başarısız oldu";
+/* Error informing users that we cannot trust to the server due to untrusted certificate */
+"untrusted_certificate" = "Sunucu sertifikası güvenilmeyen bir sunucu tarafından imzalandı";
+/* Error informing users that url is invalid */
+"unsupported_url" = "URL desteklenmiyor";
+/* Error informing users that their device is currently not connected to the Internet */
+"network_disconnect" = "İnternet bağlantısı yok";
+/* Error informing users that we currently cannot connect to the host */
+"host_unavailable" = "Ana bilgisayara bağlanılamıyor";
+/* Error informing users that their device has a data transfer limit over cellular networks */
+"cell_network_restriction" = "Hücresel ağ bağlantıya izin vermedi";
+/* Error informing users that their devices are limited to transferring data in a roaming area */
+"roaming_disabled" = "Uluslararası dolaşım devre dışı bırakıldı";
+"market_place_order_min_amount" = "Minimum tutar - %@";
+/* Title for button that reset filters for dates from date picker */
+"date_picker_reset_button_title" = "Sıfırla";
+/* Title for sheet where user can select date to filter from */
+"date_picker_select_start_date_title" = "Başlangıç Tarihini Seçin";
+/* Title for sheet where user can select date to filter to */
+"date_picker_select_end_date_title" = "Bitiş Tarihini Seçin";
+/* Divider between from and to dates block */
+"date_picker_dates_divider" = "-";
+/* Title for button that apply selected dates filter */
+"date_picker_apply_button_title" = "Uygula";
+/* Message appears when we get error from server with status %i */
+"error_status_message" = "Hata durumu: %i";
+"cancel_button_title" = "İptal et";
+/* Message appears when user successfully sent request to open trading account */
+"open_trading_account_request_sent" = "Ticari Hesap Açma İsteği başarıyla gönderildi";
+"platforms_screen_error_title" = "Veriler yüklenemedi, tekrar deneyin.";
+"platforms_screen_error_button" = "Tekrar Yükle";
